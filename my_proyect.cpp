@@ -12,6 +12,7 @@ int main() {
 
         cout <<"Ingrese un valor para calcular una suma.\n";
         cin >> ivalor;
+        count << "Usted ingreso:" << ivalor << endl;
 
         for (i= 1; i <= ivalor; i++) {
                icontador+=i;
