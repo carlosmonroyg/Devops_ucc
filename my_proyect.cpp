@@ -16,3 +16,5 @@ int main() {
         for (i= 1; i <= ivalor; i++) {
                icontador+=i;
         }
+        cout << "El resultado es: << icontador <<  endl;
+        return 0;
