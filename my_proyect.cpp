@@ -14,3 +14,5 @@ int main() {
         cin >> ivalor;
 
         for (i= 1; i <= ivalor; i++) {
+               icontador+=i;
+        }
