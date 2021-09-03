@@ -13,4 +13,4 @@ int main() {
         cout <<"Ingrese un valor para calcular una suma.\n";
         cin >> ivalor;
 
-        
+        for (i= 1; i <= ivalor; i++) {
