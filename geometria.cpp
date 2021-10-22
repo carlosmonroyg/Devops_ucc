@@ -13,12 +13,13 @@ int main(){
          int vi_base = 0;
          int vi_altura = 0;
          int vi_radio = 0;
+         double raiz = 0;
       
          cout << "|===========================================|\n";
          cout << "| Calcular area de una figura geometrica    |\n";
          cout << "|         realizado por Carlos Monroy       |\n";
          cout << "|     Universidad Cooperativa de Colombia   |\n";
-         cout << "|                 14 october 2021           |\n";
+         cout << "|                 21 october 2021           |\n";
          cout << "=============================================\n";
          cout << "\n";
 
@@ -79,7 +80,10 @@ int main(){
 
        }
 
-        cout << "El area es: " << vf_area << endl;
-        return 0;
+         cout << "El area es: " << vf_area << endl;
+         raiz=sqrt(vf_area);
+         cout << "\n";
+         cout <<"La Raiz cuadrada de-->" <<vf_area<< "----es--->: " <<raiz;
+         return 0;
 
 }
