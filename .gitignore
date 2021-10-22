@@ -32,3 +32,4 @@
 *.app
 # EXCLUSION FOLDERS
 /bin
+*.bin

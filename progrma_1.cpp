@@ -82,3 +82,9 @@ int main(){
          cout <<"el area es-->" << vf_area << endl;
 
 
+         raiz=sqrt(vf_area);
+         cout << "\n";
+         cout << "La Raiz cuadrada de " << vf_area << "----es--->: " << raiz;
+         return 0;
+
+}
