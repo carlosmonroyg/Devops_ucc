@@ -24,15 +24,15 @@ int main(){
          cout << "\n";
 
          cout << "Selecione una opcion por favor\n";
-         cout << "Circulo   [1] por defecto\n";
-         cout << "Triangulo [2] \n";
-         cout << "Cuadrado  [3]\n";
+         cout << "Circulo   [1]-> por defecto""\n";
+         cout << "Triangulo [2]-> \n";
+         cout << "Cuadrado  [3]-> \n";
          cout << "[1] :";
-         cout << "opcion por defecto =1";
+         cout << "opcion por defecto=1";
          //cin >> vi_opcion;
          vi_opcion =1;
    
-         cout << "Se ingreso : " << vi_opcion << endl;
+         cout << "Se ingreso : " "\n"<< vi_opcion << endl;
 
          if (vi_opcion < 1 ){
                  vi_opcion = 1;
@@ -83,7 +83,7 @@ int main(){
          cout << "El area es: " << vf_area << endl;
          raiz=sqrt(vf_area);
          cout << "\n";
-         cout << "La Raiz cuadrada de " << vf_area << "----es--->: " << raiz;
+         cout << "La Raiz cuadrada de " << vf_area << "\n"   "es : " << raiz <<"\n";
          return 0;
 
 }
