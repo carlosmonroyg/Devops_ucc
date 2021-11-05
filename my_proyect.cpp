@@ -1,21 +1,28 @@
-#include <studio.h>
+#include <stdio.h>
 #include <math.h>
 #include <iostream>
+#include <unistd.h>
+#include <cstdlib>
 
 using namespace std;
 
 int main() {
 
-        int ivalor =0;
+        int ivalor =20;
         int icontador=0;
         int i =0;
-
-        cout <<"Ingrese un valor para calcular una suma.\n";
-        cin >> ivalor;
-        count << "Usted ingreso:" << ivalor << endl;
+        long dsleep=0;
+        cout << "+----------------------Programa hilo------------------------" << endl;
 
         for (i= 1; i <= ivalor; i++) {
                icontador+=i;
+               dsleep=1-(1/i);
+               
+               cout << "ciclo for i = " << icontador << " sleep = " << dsleep <<endl;
+               sleep(dsleep);
         }
-        cout << "El resultado es: << icontador <<  endl;
+	cout << "--------------Llamado a otro programa----------------------" << endl;
+	system("./bin/geometria");
+        cout << "---------------------Fin programa--------------------------" <<  endl;
         return 0;
+}
